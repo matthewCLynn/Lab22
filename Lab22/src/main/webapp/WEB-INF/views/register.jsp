@@ -9,11 +9,11 @@
 <body>
 
     <h1>Enter Registration Data Below</h1>
-<form action="add-person3">
-    First name: <input type="text" name="firstName">
-    Last name: <input type="text" name="lastName">
+<form action="add-user" method = "post">
+    First name: <input type="text" name="fName">
+    Last name: <input type="text" name="lName">
     Email: <input type="text" name="email">
-    Phone Number: <input type="number" name = "phone">
+    Phone Number: <input type="text" name = "pNumber">
     Password: <input type="password" name = "password">
     <input class ="btn-primary" type="submit" value="Submit">
     </form>
