@@ -35,9 +35,9 @@
 	Gender: 
 <!-- 		<form id = "gender"> -->
 <div id = "gender">
-  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="male" > Male<br>
   <input type="radio" name="gender" value="female"> Female<br>
-  <input type="radio" name="gender" value="other"> Other
+  <input type="radio" name="gender" value="other" required> Other
 </div>
 </form>
 
