@@ -10,6 +10,7 @@ public class User
 	private String email;
 	private String pNumber;
 	private String password;
+	private String gender;
 	public String getFName() {
 		return fName;
 	}
@@ -40,13 +41,20 @@ public class User
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public User(String fName, String lName, String email, String pNumber, String password) {
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public User(String fName, String lName, String email, String pNumber, String password, String gender) {
 		super();
 		this.fName = fName;
 		this.lName = lName;
 		this.email = email;
 		this.pNumber = pNumber;
 		this.password = password;
+		this.gender = gender;
 	}
 	
 	public User()
